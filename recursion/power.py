@@ -16,4 +16,3 @@ print(power(2, 4))
 # x^a * x^b = x^a+b
 # x^3 * x^4 = x^3+4
 # x^n = x * x^n-1
-
