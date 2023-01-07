@@ -2,7 +2,7 @@
 # f(n) = f(n-1) + f(n-2)
 
 def fibonacci(n):
-    assert n >= 0 and int(n) == n, 'fibonacci number cannot be negative number or non integer'  # unintentional caase - the constraint
+    assert n >= 0 and int(n) == n, 'fibonacci number cannot be negative number or non integer'  # unintentional case - the constraint
     if n in [0, 1]: # base case
         return n
     else:
