@@ -23,3 +23,11 @@ traverseArray(array1)
 # The time complexity of traversing an array with one for loop is O(n) linear time
 # The space complextity of this operation is O(1) because we don't need an extra location to perform these operations
 
+def accessElement(array, index):
+    if index > len(array):
+        print('There is not any element in this index')
+    else:
+        print(array[index])
+
+# The time complexity of accessing an element in an array is O(1) constant time
+# The space complextity of this operation is O(1) because we don't need an extra location to perform these operations
