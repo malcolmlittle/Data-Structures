@@ -12,5 +12,14 @@ array2.insert(3, 2.0)
 
 # Insertion to full array is O(n) linear time complexity because we have to create new array and move our elements to it
 
-print(array1)
-print(array2)
+# print(array1)
+# print(array2)
+
+def traverseArray(array):
+    for i in array:
+        print(i)
+
+traverseArray(array1)
+# The time complexity of traversing an array with one for loop is O(n) linear time
+# The space complextity of this operation is O(1) because we don't need an extra location to perform these operations
+
