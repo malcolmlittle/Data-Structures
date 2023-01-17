@@ -62,3 +62,11 @@ print(my_array.buffer_info())
 print("Step 12")
 my_array.append(11)
 print(my_array.count(11))
+
+# 13. Convert array to string using toString() method
+print("Step 13")
+strTemp = my_array.tostring()
+print(strTemp)
+ints = array('i')
+ints.fromstring(strTemp)
+print(ints)
