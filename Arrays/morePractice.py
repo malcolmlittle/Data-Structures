@@ -74,3 +74,10 @@ print(ints)
 # 14. Convert array to a python list with same elements using tolist() method
 print("Step 14")
 print(my_array.tolist())
+
+# 15. Append a string to char array using fromstring() method
+# print("Step 15")
+
+# 16. Slice elements from an array
+print("Step 16")
+print(my_array[2:4])
