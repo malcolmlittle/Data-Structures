@@ -24,3 +24,7 @@ my_array.insert(0, 11)
 print(my_array)
 
 # 5. Extend python array using extend() method
+print("Step 5")
+my_array1 = array('i', [10, 11, 12])
+my_array.extend(my_array1)
+print(my_array)
