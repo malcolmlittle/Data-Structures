@@ -34,3 +34,15 @@ print("Step 6")
 tempList = [20, 21, 22]
 my_array.fromlist(tempList)
 print(my_array)
+
+# 7. Remove any array element using remove method
+print("Step 7")
+my_array.remove(22)
+print(my_array)
+
+# 8. Remove last array element using pop() method
+print("Step 8")
+my_array.pop()
+print(my_array)
+
+
