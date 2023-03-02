@@ -15,7 +15,7 @@ print(newTwoDArray)
 # The time complexity of this is O(1) - Constant time
 # The space complexity is also O(1) - Constant time as no extra memory is needed
 def accessElements(array, rowIndex, colIndex):
-    if rowIndex >= len(array) and colIndex >= len(array[0]):
+    if rowIndex >= len(array) or colIndex >= len(array[0]):
         print('Incorrect index')
     else:
         print(array[rowIndex][colIndex])
