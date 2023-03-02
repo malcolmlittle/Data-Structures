@@ -32,3 +32,16 @@ def traverseTDArray(array):
             print(array[i][j])
 
 traverseTDArray(twoDArray)
+
+
+# Searching for an element in a Two Dimensional Array
+# The time complexity is O(mn)
+# The space complexity is O(1)
+def searchTDArray(array, value):
+    for i in range(len(array)):
+        for j in range(len(array[0])):
+            if array[i][j] == value:
+                return 'The value is located at index '+str(i)+" "+str(j)
+    return 'The element is not found'
+
+print(searchTDArray(twoDArray, 14))
