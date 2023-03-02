@@ -21,3 +21,14 @@ def accessElements(array, rowIndex, colIndex):
         print(array[rowIndex][colIndex])
 
 accessElements(twoDArray, 2, 3)
+
+
+# Traversing through a Two Dimensional Array
+# The time complexity of this is O(mn) - if m = n then it will be O(n^2) quadratic time complexity
+# The space complexity is O(1) - Constant time as no extra memory is needed
+def traverseTDArray(array):
+    for i in range(len(array)):
+        for j in range(len(array[0])):
+            print(array[i][j])
+
+traverseTDArray(twoDArray)
