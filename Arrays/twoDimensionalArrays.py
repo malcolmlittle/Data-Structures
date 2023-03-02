@@ -10,3 +10,14 @@ print(twoDArray)
 
 newTwoDArray = np.append(twoDArray, [[1, 2, 3, 4]], axis=0)
 print(newTwoDArray)
+
+# Accessing an elememnt of Two Dimensional Array
+# The time complexity of this is O(1) - Constant time
+# The space complexity is also O(1) - Constant time as no extra memory is needed
+def accessElements(array, rowIndex, colIndex):
+    if rowIndex >= len(array) and colIndex >= len(array[0]):
+        print('Incorrect index')
+    else:
+        print(array[rowIndex][colIndex])
+
+accessElements(twoDArray, 2, 3)
