@@ -35,7 +35,7 @@ traverseTDArray(twoDArray)
 
 
 # Searching for an element in a Two Dimensional Array
-# The time complexity is O(mn)
+# The time complexity is O(mn) 
 # The space complexity is O(1)
 def searchTDArray(array, value):
     for i in range(len(array)):
@@ -45,3 +45,10 @@ def searchTDArray(array, value):
     return 'The element is not found'
 
 print(searchTDArray(twoDArray, 14))
+
+
+# Deletion - Two Dimensional Array
+# The time complexity is O(mn) - M IS THE NUMBER OF COLUMNS AND N IS THE NUMBER OF ROWS SO IF THE NUM OF ROWS AND COLUMNS ARE THE SAME IT IS QUADRATIC
+# The space complexity is O(1)
+newTDArray = np.delete(twoDArray, 0, axis = 0)
+print(newTDArray)
